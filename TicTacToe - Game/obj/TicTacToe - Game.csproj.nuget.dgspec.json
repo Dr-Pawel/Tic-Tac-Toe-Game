@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game\\TicTacToe - Game.csproj": {}
+    "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game.csproj": {}
   },
   "projects": {
-    "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game\\TicTacToe - Game.csproj": {
+    "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game\\TicTacToe - Game.csproj",
+        "projectUniqueName": "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game.csproj",
         "projectName": "TicTacToe - Game",
-        "projectPath": "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game\\TicTacToe - Game.csproj",
+        "projectPath": "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\TicTacToe - Game\\obj\\",
+        "outputPath": "E:\\C# projects\\TicTacToe - C# game 01.02.2023\\Tic-Tac-Toe-\\TicTacToe - Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

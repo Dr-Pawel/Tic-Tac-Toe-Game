@@ -12,6 +12,7 @@ namespace NaukaV2
             {"4","5","6"},
             {"7","8","9" }
         };
+        public static bool isDraw;
 
         public static void Main(string[] args)
         {
@@ -67,6 +68,11 @@ namespace NaukaV2
             {
                 Board();
                 CheckWinner(grid);
+                if (isDraw == true)
+                {
+                    Console.WriteLine("\n ITS A DRAW");
+                    return;
+                }
                 if (CheckWinner(grid) == true)
                 {
                     Console.WriteLine("\n THE WINNER IS O");
@@ -109,8 +115,13 @@ namespace NaukaV2
             else
             {
                 Board();
-                CheckWinner(grid);
-                if (CheckWinner(grid) == true)
+                    
+                if(isDraw == true)
+                {
+                    Console.WriteLine("\n ITS A DRAW");
+                    return;
+                }
+                else if (CheckWinner(grid) == true)
                 {
                     Console.WriteLine("\n THE WINNER IS O");
                     return;
@@ -121,6 +132,7 @@ namespace NaukaV2
 
         public static bool CheckWinner(string[,] board)
         {
+             
             if (board[0, 0] == board[1, 1] && board[0, 0] == board[2, 2] || board[0, 2] == board[1, 1] && board[0, 2] == board[2, 0])
             {
 
@@ -133,8 +145,19 @@ namespace NaukaV2
                     return true;
                 }
             }
-            return false;
+            for (int i = 0; i < grid.GetLength(0); i++)
+            {
+                for (int j = 0; j < grid.GetLength(1); j++)
+                {
+                    if(grid[i,j] == "X" || grid[i, j] == "O")
+                    {
+                        continue;
+                    }
+                    return false;                  
+                }
+            }            
+            isDraw = true;
+            return true;
         }
-
     }
 }
